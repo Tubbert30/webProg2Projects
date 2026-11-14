@@ -1,0 +1,41 @@
+/* basic css for easier testing and peace of mind */
+
+.NavBar{
+  border: solid black 1px;
+  border-radius: 15px;
+  padding-bottom:20px;
+  background-color: lightgray;
+}
+
+.Content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 20px;
+}
+
+.ItemsContainer {
+  flex: 3; 
+}
+
+.ItemCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 80px;
+}
+
+.CheckoutContainer {
+  flex: 1; 
+  top: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding:20px;
+
+}
